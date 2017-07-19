@@ -1,13 +1,30 @@
-## What you will need
+--- challenge ---
+## Challenge: Moving up!
+Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
 
-### Hardware
+The code you'll need to add will be __very__ similar to the code for moving your character to the left.
 
-+ List hardware here, or delete section.
+## Step 5: Going back to the start
 
-### Software
+Let's put your character back to the start when it falls off the path.
 
-+ List software here, or delete section.
 
-### Additional Resources
 
-+ List additional resources, or delete section.
++ You may have noticed that nothing happens when the character falls off the path.
+
+	![screenshot](images/tightrope-off-path.png)
+
++ To fix this, we're going to send the character back to the start if they're standing on a black pixel.
+
+	Let's start by getting the colour of the pixel the character has moved to.
+
+	![screenshot](images/tightrope-get-pixel.png)
+
++ If the colour of the current pixel is black, then send the character back to the start.
+
+	![screenshot](images/tightrope-reset.png)
+
++ Test your code and you should see your character move back to the start if they fall off the path.
+
+
+--- /challenge ---
