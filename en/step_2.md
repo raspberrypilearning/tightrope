@@ -1,30 +1,38 @@
---- challenge ---
-## Challenge: Moving up!
-Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
+## Draw a path
 
-The code you'll need to add will be __very__ similar to the code for moving your character to the left.
-
-## Step 5: Going back to the start
-
-Let's put your character back to the start when it falls off the path.
+First let's draw the path that your character must follow.
 
 
 
-+ You may have noticed that nothing happens when the character falls off the path.
++ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
 
-	![screenshot](images/tightrope-off-path.png)
+    __The code to set up the Sense HAT has been included for you.__
 
-+ To fix this, we're going to send the character back to the start if they're standing on a black pixel.
++ Let's start by creating variables to store the colours you want to use. Remember that to set the colour of an individual LED, you need to say how much red, green and blue it should have.
 
-	Let's start by getting the colour of the pixel the character has moved to.
+	To create yellow, you'll need maximum red and green, and no blue:
 
-	![screenshot](images/tightrope-get-pixel.png)
+	![screenshot](images/tightrope-yellow.png)
 
-+ If the colour of the current pixel is black, then send the character back to the start.
+	(If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
 
-	![screenshot](images/tightrope-reset.png)
++ You'll also need black pixels (or any colour you like) around the path.
 
-+ Test your code and you should see your character move back to the start if they fall off the path.
+	![screenshot](images/tightrope-black.png)
 
++ To draw your path, you first need to create a list containing the colour of each pixel.
 
---- /challenge ---
+	![screenshot](images/tightrope-path.png)
+
+    __To save typing, you can copy the code from `snippets.py` in your project.__
+
+	![screenshot](images/tightrope-snippets.png)
+
++ Next, you need to call `set_pixels` to display your path image on the Sense HAT.
+
+	![screenshot](images/tightrope-set-pixels.png)
+
++ Click 'Run' to test your code. You should see a yellow pixel in the places that you've used your `y` variable, and no colour in the places that you've used `x`.
+
+	![screenshot](images/tightrope-path-test.png)
+
