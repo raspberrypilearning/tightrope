@@ -1,8 +1,7 @@
----
 hero_image: images/banner.png
 theme: red
 duration: 2
-listed: false
+listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
@@ -13,13 +12,12 @@ interests: ''
 technologies: sense-hat
 site_areas: codeclub, sense-hat
 steps:
-- title: 'Introduction: '
+- title: 'Introduction'
 - title: Draw a path
 - title: 'Challenge: Create your own path'
 - title: Draw your player
-- title: Roll, pitch and yaw
+- title: 'Roll, pitch and yaw'
 - title: Moving the character
 - title: 'Challenge: Moving up!'
 - title: Going back to the start
 - title: 'Challenge: Changing the difficulty'
-
