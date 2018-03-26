@@ -1,8 +1,6 @@
-## Introduction: 
+## Introduction:
 
-In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
-
-You will be writing code in the Python programming language, which you may have learnt in the [Python module](../../python/).  
+In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning! 
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/790adaa749?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -22,7 +20,7 @@ title: Club leader notes
 
 
 ## Introduction:
-In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start! 
+In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
 ## Online Resources
 
