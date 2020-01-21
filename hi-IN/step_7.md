@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Moving up!
+## चुनौती: ऊपर ले जाना!
 
-Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
+क्या आप अपने पात्र को ऊपर ले जाने के लिए कोड जोड़ सकते हैं (अपने `chary` वेरिएबल को `-1` से बदलकर) जब `roll` `270` और `315` के बीच हो?
 
-The code you'll need to add will be **very** similar to the code for moving your character to the left.
+आपको जो कोड जोड़ना होगा, वह आपके पात्र को बाईं ओर ले जाने के लिए कोड के **बहुत अधिक** समान होगा।
 
 \--- /challenge \---
