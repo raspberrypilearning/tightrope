@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Changing the difficulty
 Ask some friends to test your game. Did they find it too easy or too hard? If so, you could make some changes:
 
