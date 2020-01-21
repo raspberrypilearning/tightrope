@@ -1,35 +1,35 @@
-## Draw a path
+## एक रास्ता बनाएँ
 
-First let's draw the path that your character must follow.
+आइए पहले हम वह रास्ता बनाएँ जिसका आपके पात्र को अवश्य पालन करना चाहिए।
 
-+ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
++ Tightrope स्टार्टर Trinket को खोलें: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>।
     
-    **The code to set up the Sense HAT has been included for you.**
+    **आपके लिए Sense HAT को सेट अप करने का कोड शामिल किया गया है।**
 
-+ Let's start by creating variables to store the colours you want to use. Remember that to set the colour of an individual LED, you need to say how much red, green and blue it should have.
++ आइए उन रंगों को संगृहीत करने के लिए वेरिएबल बनाकर आरंभ करें जिनका आप उपयोग करना चाहते हैं। याद रखें कि किसी अलग LED का रंग सेट करने के लिए, आपको यह बताना होगा कि इसमें कितना लाल, हरा और नीला होना चाहिए।
     
-    To create yellow, you'll need maximum red and green, and no blue:
+    पीला बनाने के लिए, आपको अधिकतम लाल और हरे रंग की आवश्यकता होगी, और नीले की बिलकुल नहीं:
     
-    ![screenshot](images/tightrope-yellow.png)
+    ![स्क्रीनशॉट](images/tightrope-yellow.png)
     
-    (If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
+    (यदि आप चाहें, तो आप [jumpto.cc/colours](http://jumpto.cc/colours) पर जाकर अपनी पसंद का कोई भी रंग चुन सकते हैं!
 
-+ You'll also need black pixels (or any colour you like) around the path.
++ आपको रास्ते के चारों ओर काले पिक्सेल (या अपनी पसंद के किसी भी रंग) की आवश्यकता होगी
     
-    ![screenshot](images/tightrope-black.png)
+    ![स्क्रीनशॉट](images/tightrope-black.png)
 
-+ To draw your path, you first need to create a list containing the colour of each pixel.
++ अपना रास्ता बनाने के लिए, आपको सबसे पहले एक सूची बनानी होगी जिसमें प्रत्येक पिक्सेल का रंग हो।
     
-    ![screenshot](images/tightrope-path.png)
+    ![स्क्रीनशॉट](images/tightrope-path.png)
     
-    **To save typing, you can copy the code from `snippets.py` in your project.**
+    **टाइपिंग को बचाने के लिए आप अपने प्रोजेक्ट `snippets.py` में से कोड कॉपी कर सकते हैं।**
     
-    ![screenshot](images/tightrope-snippets.png)
+    ![स्क्रीनशॉट](images/tightrope-snippets.png)
 
-+ Next, you need to call `set_pixels` to display your path image on the Sense HAT.
++ इसके बाद, आपको अपने रास्ते की छवि को Sense HAT पर प्रदर्शित करने के लिए `set_pixels` का आह्वान करना होगा।
     
-    ![screenshot](images/tightrope-set-pixels.png)
+    ![स्क्रीनशॉट](images/tightrope-set-pixels.png)
 
-+ Click 'Run' to test your code. You should see a yellow pixel in the places that you've used your `y` variable, and no colour in the places that you've used `x`.
++ अपने कोड का परीक्षण करने के लिए 'Run' (चलाएँ) पर क्लिक करें। आपको उन स्थानों पर एक पीला पिक्सेल दिखाई देना चाहिए, जहाँ आपने अपने `y` वेरिएबल का उपयोग किया है, और उन स्थानों पर कोई रंग नहीं दिखाई देना चाहिए जहाँ आपने `x` का उपयोग किया है।
     
-    ![screenshot](images/tightrope-path-test.png)
+    ![स्क्रीनशॉट](images/tightrope-path-test.png)
