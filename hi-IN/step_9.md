@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Changing the difficulty
+## चुनौती: कठिनाई को बदलना
 
-Ask some friends to test your game. Did they find it too easy or too hard? If so, you could make some changes:
+अपने गेम को आज़माने के लिए कुछ दोस्तों से कहें। क्या उन्हें यह बहुत आसान या बहुत कठिन लगा? यदि हाँ, तो आप कुछ बदलाव कर सकते हैं:
 
-+ Change the path the character has to follow;
-+ Change the `pitch` and `roll` values that move your character;
-+ Add a short or longer `sleep` at the end of your loop.
++ पात्र को जिस रास्ते का अनुसरण करना है उस रास्ते को बदलें;
++ `pitch` और `roll` के मानों को बदलें जो आपके पात्र को चलाते हैं;
++ अपने लूप के अंत में एक छोटा या बड़ा `sleep` जोड़ें।
 
-![screenshot](images/tightrope-difficulty.png)
+![स्क्रीनशॉट](images/tightrope-difficulty.png)
 
 \--- /challenge \---
