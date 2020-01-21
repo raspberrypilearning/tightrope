@@ -7,31 +7,31 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Tightrope
-description: Tilt your Sense HAT to guide a character along a path.
+description: किसी रास्ते पर पात्र का मार्गदर्शन करने के लिए अपने Sense HAT को झुकाएँ।
 original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
 interests: games
 technologies: sense-hat
-site_areas: projects
+site_areas: प्रोजेक्ट
 hardware: sense-hat
 software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'Introduction'
   - 
-    title: Draw a path
+    title: एक रास्ता बनाना
   - 
-    title: 'Challenge: Create your own path'
+    title: 'चुनौती: अपना खुद का रास्ता बनाना'
   - 
-    title: Draw your player
+    title: अपना खिलाड़ी बनाना
   - 
-    title: 'Roll, pitch and yaw'
+    title: 'Roll, pitch और yaw'
   - 
-    title: Moving the character
+    title: पात्र को चलाना
   - 
-    title: 'Challenge: Moving up!'
+    title: 'चुनौती: ऊपर ले जाना!'
   - 
-    title: Going back to the start
+    title: स्टार्ट पर वापस जाना
   - 
-    title: 'Challenge: Changing the difficulty'
+    title: 'चुनौती: कठिनाई को बदलना'
