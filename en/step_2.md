@@ -2,8 +2,6 @@
 
 First let's draw the path that your character must follow.
 
-
-
 + Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
 
     __The code to set up the Sense HAT has been included for you.__

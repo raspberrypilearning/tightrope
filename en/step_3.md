@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Create your own path
 Can you edit your `path` variable to create a path to follow?
 

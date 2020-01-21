@@ -59,15 +59,13 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + "Moving up!" - moving the character up in response to changing `roll` values.
 + "Changing the difficulty" - testing the finished game and making changes based on player feedback.
 
-
-
 --- /collapse ---
-
 
 --- collapse ---
 ---
 title: Project materials
 ---
+
 ## Project resources
 * [.zip file containing all project resources](resources/tightrope-project-resources.zip)
 * [Tightrope starter project](http://jumpto.cc/tightrope-go)
