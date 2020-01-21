@@ -1,39 +1,39 @@
-## Roll, pitch and yaw
+## Roll (आगे-पीछे घुमाना), pitch (ऊपर-नीचे घुमाना) और yaw (दाएँ-बाएँ घुमाना)
 
-You'll be tilting the Sense HAT to move your character. Let's start by finding out the **orientation** (the position) of your Sense HAT.
+आप अपने पात्र को चलाने के लिए Sense HAT को झुकाएँगे। आइए हम आपके Sense HAT की **ओरिएंटेशन** (स्थिति) पता करके आरंभ करें।
 
-+ The Sense HAT can detect its **roll**, **pitch** and **yaw**.
++ Sense HAT अपनी **roll**, **pitch** और **yaw** स्थिति का पता लगा सकता है।
     
-    ![screenshot](images/tightrope-rpy.png)
+    ![स्क्रीनशॉट](images/tightrope-rpy.png)
 
-+ Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
++ यह देखने के लिए कि Sense HAT कैसे चलता है, इसके roll, pitch और yaw मानों को बदलने के लिए इसे ड्रैग करने की कोशिश करें।
     
-    ![screenshot](images/tightrope-rpy-test.png)
+    ![स्क्रीनशॉट](images/tightrope-rpy-test.png)
     
-    **Press the reset button to put the Sense HAT back to the starting position when you've finished testing.**
+    **जब आप परीक्षण पूरा कर लें तो Sense HAT को वापस आरंभ की स्थिति में लाने के लिए रीसेट बटन को दबाएँ।**
 
-+ We only need the pitch and the roll for this project, so add 2 lines of code to get these values from the Sense HAT.
++ हमें इस प्रोजेक्ट के लिए केवल pitch और roll की ज़रूरत है, इसलिए Sense Hat से इन मानों को प्राप्त करने के लिए कोड की 2 पंक्तियाँ जोड़ें।
     
-    ![screenshot](images/tightrope-roll-pitch.png)
+    ![स्क्रीनशॉट](images/tightrope-roll-pitch.png)
 
-+ Print the pitch and roll to test them out.
++ pitch और roll का परीक्षण करने के लिए इन्हें प्रिंट करें।
     
-    ![screenshot](images/tightrope-roll-pitch-print.png)
+    ![स्क्रीनशॉट](images/tightrope-roll-pitch-print.png)
 
-+ Run your code to test it, and change the pitch of the Sense HAT to tilt it to the right. You'll notice that the printed `pitch` value doesn't change!
++ इसका परीक्षण करने के लिए अपना कोड चलाएँ, और Sense HAT को दाईं ओर झुकाने के लिए इसकी pitch को बदलें। आप देखेंगे कि मुद्रित `pitch` मान नहीं बदलता है!
     
-    ![screenshot](images/tightrope-pitch-test.png)
+    ![स्क्रीनशॉट](images/tightrope-pitch-test.png)
 
-+ The problem is that you are only getting and printing the `pitch` and `roll` **once**.
++ समस्या यह है कि आप `pitch` और `roll` को केवल **एक बार** ही प्राप्त और प्रिंट कर रहे हैं।
     
-    To do this repeatedly, you'll first need to indent all of your code for setting the pixels, as well as getting and printing the `pitch` and `roll` values.
+    ऐसा बार-बार करने के लिए, पहले आपको पिक्सल सेट करने के लिए अपने सभी कोड को इंडेंट करना होगा, साथ ही `pitch` और `roll` मानों को प्राप्त और प्रिंट करना होगा।
     
-    ![screenshot](images/tightrope-indent.png)
+    ![स्क्रीनशॉट](images/tightrope-indent.png)
 
-+ You can then add `while True:` above the indented code to run it forever.
++ फिर इसे हमेशा के लिए चलाने के लिए आप इंडेंट किए गए कोड के ऊपर `while True:` जोड़ सकते हैं।
     
-    ![screenshot](images/tightrope-forever.png)
+    ![स्क्रीनशॉट](images/tightrope-forever.png)
 
-+ Test your code again, and this time you should see the printed `pitch` value change.
++ अपने कोड का दोबारा परीक्षण करें, और इस बार आपको प्रिंट हुआ `pitch` मान बदला हुआ दिखाई देना चाहिए।
     
-    ![screenshot](images/tightrope-pitch-test-fix.png)
+    ![स्क्रीनशॉट](images/tightrope-pitch-test-fix.png)
