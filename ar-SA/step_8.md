@@ -1,19 +1,19 @@
-## Going back to the start
+## العودة إلى البداية
 
-Let's put your character back to the start when it falls off the path.
+دعنا نعيد الشخصية إلى البداية عندما تسقط عن المسار.
 
-+ You may have noticed that nothing happens when the character falls off the path.
++ ربما كنت قد لاحظت أن لا شيء يحدث عندما تسقط الشخصية عن المسار.
     
     ![لقطة الشاشة](images/tightrope-off-path.png)
 
-+ To fix this, we're going to send the character back to the start if they're standing on a black pixel.
++ لإصلاح هذا، سنقوم بإرسال الشخصية مرة أخرى إلى البداية إذا كانوا يقفون على البكسل الأسود.
     
-    Let's start by getting the colour of the pixel the character has moved to.
+    دعنا نبدأ بالحصول على لون البكسل الذي انتقلت إليه الشخصية.
     
     ![لقطة الشاشة](images/tightrope-get-pixel.png)
 
-+ If the colour of the current pixel is black, then send the character back to the start.
++ إذا كان لون البكسل الحالي أسود، فأرسل الشخصية مرة أخرى إلى البداية.
     
     ![لقطة الشاشة](images/tightrope-reset.png)
 
-+ Test your code and you should see your character move back to the start if they fall off the path.
++ اختبر التعليمات البرمجية الخاصة بك ويجب أن ترى الشخصية تتحرك مرة أخرى إلى البداية إذا سقطوا على الطريق.
