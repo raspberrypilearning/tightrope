@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Moving up!
+## التحدي: التحرك!
 
-Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
+هل يمكنك إضافة تعليمة برمجية لتحريك إلى الأعلى (عن طريق تغيير متغير `Chary` بمقدار `-1`) عندما يكون `roll` بين `270` و `315`؟
 
-The code you'll need to add will be **very** similar to the code for moving your character to the left.
+الكود الذي ستحتاج إلى إضافته سيكون **جدًا ** شبيه بالكود لنقل شخصيتك إلى اليسار.
 
 \--- /challenge \---
