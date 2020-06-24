@@ -1,15 +1,15 @@
 ---
 hero_image: images/tightrope.png
-theme: 노란
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Tightrope
 description: Tilt your Sense HAT to guide a character along a path.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
-interests: 게임
+interests: games
 technologies: sense-hat
 site_areas: projects
 hardware: sense-hat
