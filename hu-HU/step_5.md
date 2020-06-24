@@ -4,7 +4,7 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
 
 + The Sense HAT can detect its **roll**, **pitch** and **yaw**.
     
-    ![képernyőkép](images/tightrope-rpy.png)
+    ![screenshot](images/tightrope-rpy.png)
 
 + Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
     
