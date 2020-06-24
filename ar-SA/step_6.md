@@ -1,51 +1,51 @@
-## Moving the character
+## تحريك الشخصية
 
-Now let's move your character when the Sense HAT is tilted.
+الآن دعنا ننقل شخصيتك عند إمالة Sense HAT.
 
-+ Let's move your character to the right if the Sense HAT's `pitch` is between `270` and `315` degrees.
++ دعنا ننقل شخصيتك إلى اليمين إذا كان الملعب ` Sense HAT's ` بين ` 270 ` و ` 315 ` درجات.
     
     ![لقطة الشاشة](images/tightrope-right-values.png)
 
-+ Add this code to change the character's x position if the pitch is between `270` and `315`:
++ أضف هذا الرمز لتغيير موضع الشخصية x إذا كانت الحزمة بين `270` و `315`:
     
     ![لقطة الشاشة](images/tightrope-charx-plus.png)
     
-    **Make sure that this code is indented, so that the character moves repeatedly if the Sense HAT is tilted.**
+    **تأكد من وجود مسافة بادئة لهذا الرمز ، بحيث تتحرك الشخصية بشكل متكرر في حالة إمالة Sense HAT.**
 
-+ Tilt your Sense HAT so that the `pitch` is between `270` and `315` degrees. You should see that your character moves to the right, but keeps going off the display!
++ قم بإمالة Sense HAT بحيث يكون `pitch` بين `270` و `315` درجات. يجب أن ترى أن شخصيتك تتحرك إلى اليمين، ولكن تستمر في الخروج من الشاشة!
     
     ![لقطة الشاشة](images/tightrope-charx-test-bug.png)
     
-    You will also see an error, because the character's x position goes above 7, which is not a valid position on the display.
+    سترى أيضًا خطأ ، لأن موضع الحرف x يتجاوز 7 ، وهو ليس موضعًا صالحًا على الشاشة.
     
     ![لقطة الشاشة](images/tightrope-charx-test-error.png)
 
-+ To fix this, you only want to move your character to the right if its current position is less than 7.
++ لإصلاح ذلك ، فأنت تريد فقط نقل شخصيتك إلى اليمين إذا كان موقعها الحالي أقل من 7.
     
     ![لقطة الشاشة](images/tightrope-charx-test-fix.png)
 
-+ Test your improved code, and you should now see that your character moves **until it gets to the right side of the display**.
++ اختبر الكود المحسّن الخاص بك، ويجب أن ترى الآن أن الشخصية تتحرك **إلى أن تصل إلى الجانب الأيمن من العرض **.
     
     ![لقطة الشاشة](images/tightrope-charx-test2.png)
 
-+ We also want to move your character to the left when the `pitch` is between `45` and `90` degrees.
++ نريد أيضًا نقل شخصيتك إلى اليسار عندما تكون درجة ` ` ما بين ` 45 ` و ` 90 ` درجات.
     
     ![لقطة الشاشة](images/tightrope-left-values.png)
 
-+ Add this code to move your character to the left if the `pitch` is between `45` and `90`, but **only if the character isn't already at the far left of the display**.
++ أضف هذا الرمز لنقل حرفك إلى اليسار إذا كان `pitch` بين `45` و `90`، ولكن **فقط إذا لم تكن الحرف بالفعل في أقصى اليسار من العرض **.
     
     ![لقطة الشاشة](images/tightrope-charx-minus.png)
 
-+ Test your code to make sure that you can tilt your character back to the left.
++ اختبر التعليمات البرمجية الخاصة بك للتأكد من أنك تستطيع إرجاع شخصيتك إلى اليسار.
 
-+ Next, let's add code to change your character's **y-position**, moving it down when the **`roll`** value is between `45` and `90`.
++ بعد ذلك، دعونا نضيف تعليمة برمجية لتغيير شخصيتك **y-position**، ونحركها إلى الأسفل عندما تكون قيمة **`الدوران `** بين `45` و`90`.
     
     ![لقطة الشاشة](images/tightrope-chary-plus.png)
 
-+ test this code to see if you can tilt the Sense HAT to move your character down.
++ اختبر هذه التعليمات البرمجية لمعرفة ما إذا كنت تستطيع أن تميل Sense HAT لتحريك شخصيتك إلى الأسفل.
     
     ![لقطة الشاشة](images/tightrope-chary-plus-test.png)
 
-+ If you want to slow your game down, you can add short `sleep` at the end of your `while True:` loop.
++ إذا كنت ترغب في إبطاء لعبتك ، يمكنك إضافة حلقة قصيرة `نوم` في نهاية حلقة `بينما صحيح:`.
     
     ![لقطة الشاشة](images/tightrope-sleep.png)
