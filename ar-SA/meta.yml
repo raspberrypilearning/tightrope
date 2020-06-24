@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Tightrope
-description: Tilt your Sense HAT to guide a character along a path.
+title: حبل البهلوان
+description: امالة إلى Sense HAT الخاص بك لتوجيه شخصية على طول الطريق.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
 interests: ألعاب
 technologies: sense-hat
@@ -18,20 +18,20 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction'
+    title: 'المقدمة'
   - 
-    title: Draw a path
+    title: ارسم مسار
   - 
-    title: 'Challenge: Create your own path'
+    title: 'التحدي: أنشئ المسار الخاص بك'
   - 
-    title: Draw your player
+    title: ارسم لاعبك
   - 
-    title: 'Roll, pitch and yaw'
+    title: 'لفة، اعلى اسفل وانحراف'
   - 
-    title: Moving the character
+    title: تحريك الشخصية
   - 
-    title: 'Challenge: Moving up!'
+    title: 'التحدي: التحرك!'
   - 
-    title: Going back to the start
+    title: العودة إلى البداية
   - 
-    title: 'Challenge: Changing the difficulty'
+    title: 'التحدي: تغيير الصعوبة'
