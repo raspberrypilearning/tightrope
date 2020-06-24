@@ -4,11 +4,11 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
 
 + The Sense HAT can detect its **roll**, **pitch** and **yaw**.
     
-    ![captura de pantalla](images/tightrope-rpy.png)
+    ![screenshot](images/tightrope-rpy.png)
 
 + Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
     
-    ![captura de pantalla](images/tightrope-rpy-test.png)
+    ![screenshot](images/tightrope-rpy-test.png)
     
     **Press the reset button to put the Sense HAT back to the starting position when you've finished testing.**
 
@@ -28,12 +28,12 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
     
     To do this repeatedly, you'll first need to indent all of your code for setting the pixels, as well as getting and printing the `pitch` and `roll` values.
     
-    ![captura de pantalla](images/tightrope-indent.png)
+    ![screenshot](images/tightrope-indent.png)
 
 + You can then add `while True:` above the indented code to run it forever.
     
-    ![captura de pantalla](images/tightrope-forever.png)
+    ![screenshot](images/tightrope-forever.png)
 
 + Test your code again, and this time you should see the printed `pitch` value change.
     
-    ![captura de pantalla](images/tightrope-pitch-test-fix.png)
+    ![screenshot](images/tightrope-pitch-test-fix.png)
