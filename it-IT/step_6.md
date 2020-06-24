@@ -18,11 +18,11 @@ Now let's move your character when the Sense HAT is tilted.
     
     You will also see an error, because the character's x position goes above 7, which is not a valid position on the display.
     
-    ![schermata](images/tightrope-charx-test-error.png)
+    ![screenshot](images/tightrope-charx-test-error.png)
 
 + To fix this, you only want to move your character to the right if its current position is less than 7.
     
-    ![schermata](images/tightrope-charx-test-fix.png)
+    ![screenshot](images/tightrope-charx-test-fix.png)
 
 + Test your improved code, and you should now see that your character moves **until it gets to the right side of the display**.
     
@@ -30,22 +30,22 @@ Now let's move your character when the Sense HAT is tilted.
 
 + We also want to move your character to the left when the `pitch` is between `45` and `90` degrees.
     
-    ![schermata](images/tightrope-left-values.png)
+    ![screenshot](images/tightrope-left-values.png)
 
 + Add this code to move your character to the left if the `pitch` is between `45` and `90`, but **only if the character isn't already at the far left of the display**.
     
-    ![schermata](images/tightrope-charx-minus.png)
+    ![screenshot](images/tightrope-charx-minus.png)
 
 + Test your code to make sure that you can tilt your character back to the left.
 
 + Next, let's add code to change your character's **y-position**, moving it down when the **`roll`** value is between `45` and `90`.
     
-    ![schermata](images/tightrope-chary-plus.png)
+    ![screenshot](images/tightrope-chary-plus.png)
 
 + test this code to see if you can tilt the Sense HAT to move your character down.
     
-    ![schermata](images/tightrope-chary-plus-test.png)
+    ![screenshot](images/tightrope-chary-plus-test.png)
 
 + If you want to slow your game down, you can add short `sleep` at the end of your `while True:` loop.
     
-    ![schermata](images/tightrope-sleep.png)
+    ![screenshot](images/tightrope-sleep.png)
