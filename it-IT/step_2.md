@@ -10,7 +10,7 @@ First let's draw the path that your character must follow.
     
     To create yellow, you'll need maximum red and green, and no blue:
     
-    ![schermata](images/tightrope-yellow.png)
+    ![screenshot](images/tightrope-yellow.png)
     
     (If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
 
@@ -20,11 +20,11 @@ First let's draw the path that your character must follow.
 
 + To draw your path, you first need to create a list containing the colour of each pixel.
     
-    ![schermata](images/tightrope-path.png)
+    ![screenshot](images/tightrope-path.png)
     
     **To save typing, you can copy the code from `snippets.py` in your project.**
     
-    ![schermata](images/tightrope-snippets.png)
+    ![screenshot](images/tightrope-snippets.png)
 
 + Next, you need to call `set_pixels` to display your path image on the Sense HAT.
     
@@ -32,4 +32,4 @@ First let's draw the path that your character must follow.
 
 + Click 'Run' to test your code. You should see a yellow pixel in the places that you've used your `y` variable, and no colour in the places that you've used `x`.
     
-    ![schermata](images/tightrope-path-test.png)
+    ![screenshot](images/tightrope-path-test.png)
