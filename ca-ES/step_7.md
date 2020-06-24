@@ -1,4 +1,4 @@
-\--- repte \---
+\--- challenge \---
 
 ## Challenge: Moving up!
 
