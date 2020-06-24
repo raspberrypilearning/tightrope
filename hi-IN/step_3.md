@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## चुनौती: अपना खुद का रास्ता बनाएँ
+## Challenge: Create your own path
 
-क्या आप किसी रास्ते का अनुसरण करने के लिए रास्ता बनाने के लिए अपने `path` वेरिएबल को संपादित कर सकते हैं?
+Can you edit your `path` variable to create a path to follow?
 
-**सुनिश्चित करें कि आपका रास्ता डिस्प्ले के ऊपरी-बाएँ हिस्से से शुरू होता है।**
+**Make sure that your path starts at the top-left of the display.**
 
-![स्क्रीनशॉट](images/tightrope-path-challenge.png)
+![screenshot](images/tightrope-path-challenge.png)
 
 \--- /challenge \---
