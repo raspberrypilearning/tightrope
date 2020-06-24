@@ -6,4 +6,4 @@ Can you add code to move your character up (by changing your `chary` variable by
 
 The code you'll need to add will be **very** similar to the code for moving your character to the left.
 
-\--- /thử thách \---
+\--- /challenge \---
