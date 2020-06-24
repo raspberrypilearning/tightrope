@@ -1,39 +1,39 @@
-## Roll, pitch and yaw
+## لفة، اعلى اسفل وانحراف
 
-You'll be tilting the Sense HAT to move your character. Let's start by finding out the **orientation** (the position) of your Sense HAT.
+سوف تميل "Sense HAT" لتحريك شخصيتك. دعونا نبدأ بالعثور على **التوجيه** (المكان) الخاص بـ Sense HAT.
 
-+ The Sense HAT can detect its **roll**, **pitch** and **yaw**.
++ يمكن لـ Sense HAT أن يكتشف **roll**، و**pitch** و**yaw**.
     
     ![لقطة الشاشة](images/tightrope-rpy.png)
 
-+ Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
++ حاول سحب Sense HAT لتغيير قيم اللف ، والخطوة والانحراف لترى كيف تتحرك.
     
     ![لقطة الشاشة](images/tightrope-rpy-test.png)
     
-    **Press the reset button to put the Sense HAT back to the starting position when you've finished testing.**
+    **اضغط على زر إعادة التعيين لإعادة وضع Sense HAT إلى موضع البداية عند الانتهاء من الاختبار.**
 
-+ We only need the pitch and the roll for this project, so add 2 lines of code to get these values from the Sense HAT.
++ نحتاج فقط إلى العرض التقديمي ولفة هذا المشروع ، لذا أضف سطرين من التعليمات البرمجية للحصول على هذه القيم من Sense HAT.
     
     ![لقطة الشاشة](images/tightrope-roll-pitch.png)
 
-+ Print the pitch and roll to test them out.
++ اطبع الحزمة و قم بالتشغيل لاختبارها.
     
     ![لقطة الشاشة](images/tightrope-roll-pitch-print.png)
 
-+ Run your code to test it, and change the pitch of the Sense HAT to tilt it to the right. You'll notice that the printed `pitch` value doesn't change!
++ قم بتشغيل الكود الخاص بك لاختباره ، وقم بتغيير درجة Sense HAT لإمالته إلى اليمين. ستلاحظ أن القيمة المطبوعة `pitch` لا تتغير!
     
     ![لقطة الشاشة](images/tightrope-pitch-test.png)
 
-+ The problem is that you are only getting and printing the `pitch` and `roll` **once**.
++ المشكلة هي أنك فقط تحصل على `pitch` و `درج ` و **مرة واحدة**.
     
-    To do this repeatedly, you'll first need to indent all of your code for setting the pixels, as well as getting and printing the `pitch` and `roll` values.
+    للقيام بذلك مرارا وتكرارا، ستحتاج أولا إلى وضع كل التعليمات البرمجية الخاصة بك لتعيين وحدات البكسل، بالإضافة إلى الحصول على قيم `pitch` و `roll` وطباعتها.
     
     ![لقطة الشاشة](images/tightrope-indent.png)
 
-+ You can then add `while True:` above the indented code to run it forever.
++ يمكنك بعد ذلك إضافة `while True:` فوق الرمز المحدد لتشغيله إلى الأبد.
     
     ![لقطة الشاشة](images/tightrope-forever.png)
 
-+ Test your code again, and this time you should see the printed `pitch` value change.
++ اختبر تعليماتك البرمجية مرة أخرى، وهذه المرة يجب أن ترى قيمة مطبوعة`pitch`.
     
     ![لقطة الشاشة](images/tightrope-pitch-test-fix.png)
