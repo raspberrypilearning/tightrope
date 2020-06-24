@@ -1,4 +1,4 @@
-## Wprowadzenie:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,53 +7,53 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Dodatkowe informacje dla prowadzących klub
+### Additional information for club leaders
 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/tightrope/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
 ## \--- collapse \---
 
-## title: Notatki dla liderów klubów
+## title: Club leader notes
 
-## Wprowadzenie:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
-## Zasoby Online
+## Online Resources
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Ten projekt zawiera następujące szablony:
+**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 * ['Tightrope' Starter Trinket -- jumpto.cc/tightrope-go](http://jumpto.cc/tightrope-go)
 
-Jest też Trinket zawierający ukończony projekt:
+There is also a trinket containing the completed project:
 
 * [‘Tightrope’ Finished -- trinket.io/python/790adaa749](https://trinket.io/python/790adaa749)
 
-## Zasoby Offline
+## Offline Resources
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Materiały potrzebne do wykonania projektu dostępne są po kliknięciu linku "Materiały do projektu". Można znaleźć tam sekcję "Źródła", która zawiera zasoby, potrzebne dzieciom do wykonania projektu w wersji offline. Upewnij się, że każde dziecko ma dostęp do tych zasobów. Ta sekcja zawiera następujące pliki:
+This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * tightrope/main.py
 * tightrope/snippets.py
 
-Ukończoną wersję tego projektu można również znaleźć w sekcji "Zasoby dla wolontariuszy", która zawiera:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 * tightrope-finished/main.py
 * tightrope-finished/snippets.py
 
-(Wszystkie powyższe zasoby można również pobrać jako pliki `.zip`.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Cele dydaktyczne
+## Learning Objectives
 
 * Sense HAT orientation (roll, pitch and yaw);
 * Sense HAT display;
 * RGB colours;
 
-Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Połącz konstrukcje programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Zadania
+## Challenges
 
 * "Create your own path" - creating a image using a list of pixels;
 * "Moving up!" - moving the character up in response to changing `roll` values.
@@ -63,18 +63,18 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 
 ## \--- collapse \---
 
-## title: Materiały do projektu
+## title: Project materials
 
-## Zasoby projektu
+## Project resources
 
-* [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/tightrope-project-resources.zip)
+* [.zip file containing all project resources](resources/tightrope-project-resources.zip)
 * [Tightrope starter project](http://jumpto.cc/tightrope-go)
 * [Offline starter Python file](resources/tightrope-main.py)
 * [Offline Python file containing useful code](resources/tightrope-snippets.py)
 
-## Zasoby dla lidera klubu
+## Club leader resources
 
-* [Plik .zip zawierający zasoby z ukończonym projektem](resources/tightrope-volunteer-resources.zip)
+* [.zip file containing all completed project resources](resources/tightrope-volunteer-resources.zip)
 * [Online completed Trinket Tightrope project](https://trinket.io/python/790adaa749)
 * [tightrope-finished/main.py](resources/tightrope-finished-main.py)
 * [tightrope-finished/snippets.py](resources/tightrope-finished-snippets.py)
