@@ -16,4 +16,4 @@ Let's add the character to your game.
 
 + Test your code, and you should now see your character in the top-left of the screen.
     
-    ![schermata](images/tightrope-final.png)
+    ![screenshot](images/tightrope-final.png)
