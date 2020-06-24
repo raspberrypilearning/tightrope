@@ -1,4 +1,4 @@
-## Увод:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,15 +7,15 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Додатне информације за вође клуба
+### Additional information for club leaders
 
-Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/tightrope/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
 ## \--- collapse \---
 
 ## title: Club leader notes
 
-## Увод:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
