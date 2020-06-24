@@ -1,0 +1,37 @@
+---
+hero_image: images/tightrope.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Cuerda floja
+description: Inclina tu Sense HAT para guiar al personaje a lo largo del camino.
+original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
+interests: games
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 'Introducción'
+  - 
+    title: Dibuja una ruta
+  - 
+    title: 'Desafío: Dibuja tu propio camino'
+  - 
+    title: Dibuja a tu jugador
+  - 
+    title: 'Alabeo, cabeceo y guiñada'
+  - 
+    title: Moviendo al personaje
+  - 
+    title: 'Desafío: ¡Avanza!'
+  - 
+    title: Volviendo al inicio
+  - 
+    title: 'Desafío: ajusta la dificultad'
