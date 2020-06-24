@@ -1,4 +1,4 @@
-скриншот
+\--- challenge \---
 
 ## Challenge: Changing the difficulty
 
@@ -8,6 +8,6 @@ Ask some friends to test your game. Did they find it too easy or too hard? If so
 + Change the `pitch` and `roll` values that move your character;
 + Add a short or longer `sleep` at the end of your loop.
 
-![скриншот](images/tightrope-difficulty.png)
+![screenshot](images/tightrope-difficulty.png)
 
 \--- /challenge \---
