@@ -18,7 +18,7 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
 
 + Print the pitch and roll to test them out.
     
-    ![schermata](images/tightrope-roll-pitch-print.png)
+    ![screenshot](images/tightrope-roll-pitch-print.png)
 
 + Run your code to test it, and change the pitch of the Sense HAT to tilt it to the right. You'll notice that the printed `pitch` value doesn't change!
     
@@ -28,12 +28,12 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
     
     To do this repeatedly, you'll first need to indent all of your code for setting the pixels, as well as getting and printing the `pitch` and `roll` values.
     
-    ![schermata](images/tightrope-indent.png)
+    ![screenshot](images/tightrope-indent.png)
 
 + You can then add `while True:` above the indented code to run it forever.
     
-    ![schermata](images/tightrope-forever.png)
+    ![screenshot](images/tightrope-forever.png)
 
 + Test your code again, and this time you should see the printed `pitch` value change.
     
-    ![schermata](images/tightrope-pitch-test-fix.png)
+    ![screenshot](images/tightrope-pitch-test-fix.png)
