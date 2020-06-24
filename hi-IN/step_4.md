@@ -1,19 +1,19 @@
-## अपना खिलाड़ी बनाएँ
+## Draw your player
 
-आइए आपके गेम में पात्र जोड़ें।
+Let's add the character to your game.
 
-+ पहले, अपने पात्र के लिए रंग का कोई और वेरिएबल बनाएँ। यहाँ देखें कि नीला कैसे बनाना है:
++ First, create another colour variable for your character. Here's how to create blue:
     
-    ![स्क्रीनशॉट](images/tightrope-blue.png)
+    ![screenshot](images/tightrope-blue.png)
 
-+ इसके बाद आपको अपने पात्र की x और y स्थिति को संगृहीत करने के लिए वेरिएबल बनाने की आवश्यकता होगी। शुरू करने के लिए, हम इन दोनों को `0` पर सेट करेंगे, जो Sense Hat का ऊपरी-बायाँ हिस्सा है।
++ Next you need to create variables to store your character's x and y position. To start with, we'll set these both to `0`, which is the top-left of the Sense HAT.
     
-    ![स्क्रीनशॉट](images/tightrope-xy.png)
+    ![screenshot](images/tightrope-xy.png)
 
-+ अपने पात्र को प्रदर्शित करने के लिए, `set_pixel` का उपयोग करें। आपको `set_pixel` को सेट किए जाने वाले पिक्सेल की x और y स्थिति, और साथ ही रंग बताना होगा।
++ To display your character, use `set_pixel`. You need to tell `set_pixel` the x and y position of the pixel to set, as well as the colour.
     
-    ![स्क्रीनशॉट](images/tightrope-set-pixel.png)
+    ![screenshot](images/tightrope-set-pixel.png)
 
-+ अपने कोड का परीक्षण करें, और अब आपको अपना पात्र स्क्रीन के ऊपरी-बाएँ हिस्से में दिखाई देना चाहिए।
++ Test your code, and you should now see your character in the top-left of the screen.
     
-    ![स्क्रीनशॉट](images/tightrope-final.png)
+    ![screenshot](images/tightrope-final.png)
