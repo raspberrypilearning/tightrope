@@ -1,4 +1,4 @@
-## Introdução:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,15 +7,15 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Informações adicionais para os líderes do clube
+### Additional information for club leaders
 
-Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/tightrope/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
 ## \--- collapse \---
 
-## title: Notas de líder de clube
+## title: Club leader notes
 
-## Introdução:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
@@ -43,17 +43,17 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Objetivos de Aprendizagem
+## Learning Objectives
 
 * Sense HAT orientation (roll, pitch and yaw);
 * Sense HAT display;
 * RGB colours;
 
-Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry Pi Digital Making ](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Desafios
+## Challenges
 
 * "Create your own path" - creating a image using a list of pixels;
 * "Moving up!" - moving the character up in response to changing `roll` values.
@@ -63,7 +63,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## \--- collapse \---
 
-## title: Materiais do projeto
+## title: Project materials
 
 ## Project resources
 
@@ -72,7 +72,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 * [Offline starter Python file](resources/tightrope-main.py)
 * [Offline Python file containing useful code](resources/tightrope-snippets.py)
 
-## Recursos do líder de clube
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/tightrope-volunteer-resources.zip)
 * [Online completed Trinket Tightrope project](https://trinket.io/python/790adaa749)
