@@ -1,35 +1,35 @@
-## Draw a path
+## ارسم مسار
 
-First let's draw the path that your character must follow.
+دعنا أولاً نرسم المسار الذي يجب أن تتبعه شخصيتك.
 
-+ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
++ افتح مشروع حبل البهلوان مشروع البداية بالTrinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
     
-    **The code to set up the Sense HAT has been included for you.**
+    **تم اعداد التعليمات البرمجية لإعداد Sense HAT لك.**
 
-+ Let's start by creating variables to store the colours you want to use. Remember that to set the colour of an individual LED, you need to say how much red, green and blue it should have.
++ لنبدأ بإنشاء متغيرات لتخزين الألوان التي تريد استخدامها. تذكر أنه لتعيين لون للضوء الواحد، يجب أن تقول كم يجب أن يكون لديه اللون الأحمر والأخضر والأزرق.
     
-    To create yellow, you'll need maximum red and green, and no blue:
+    لإنشاء اللون الأصفر ، ستحتاج إلى الحد الأقصى باللون الأحمر والأخضر ، ولا يوجد أزرق:
     
     ![لقطة الشاشة](images/tightrope-yellow.png)
     
-    (If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
+    (إذا كنت تفضل ذلك ، يمكنك الانتقال إلى [ jumpto.cc/colours ](http://jumpto.cc/colours) واختر أي لون يعجبك!
 
-+ You'll also need black pixels (or any colour you like) around the path.
++ ستحتاج أيضًا إلى وحدات بكسل سوداء (أو أي لون تريده) حول المسار.
     
     ![لقطة الشاشة](images/tightrope-black.png)
 
-+ To draw your path, you first need to create a list containing the colour of each pixel.
++ لرسم المسار الخاص بك ، تحتاج أولاً إلى إنشاء قائمة تحتوي على لون كل بكسل.
     
     ![لقطة الشاشة](images/tightrope-path.png)
     
-    **To save typing, you can copy the code from `snippets.py` in your project.**
+    **لتقليل الكتابة، يمكنك نسخ قوس قزح من ` snippetets.py ` في مشروعك.**
     
     ![لقطة الشاشة](images/tightrope-snippets.png)
 
-+ Next, you need to call `set_pixels` to display your path image on the Sense HAT.
++ بعد ذلك ، تحتاج إلى استدعاء ` set_pixels ` لعرض صورة مسارك على Sense HAT.
     
     ![لقطة الشاشة](images/tightrope-set-pixels.png)
 
-+ Click 'Run' to test your code. You should see a yellow pixel in the places that you've used your `y` variable, and no colour in the places that you've used `x`.
++ انقر فوق 'تشغيل' لاختبار الكود الخاص بك. يجب أن ترى بكسل أصفر في الأماكن التي استخدمت المتغير `y` ، ولايوجد لون في الأماكن التي استخدمتها `x`.
     
     ![لقطة الشاشة](images/tightrope-path-test.png)
