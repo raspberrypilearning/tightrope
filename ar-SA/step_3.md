@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create your own path
+## التحدي: أنشئ المسار الخاص بك
 
-Can you edit your `path` variable to create a path to follow?
+هل يمكنك تعديل متغير `path` لإنشاء مسار يتبعه؟
 
-**Make sure that your path starts at the top-left of the display.**
+**تأكد من أن المسار الخاص بك يبدأ عند أعلى يسار العرض.**
 
 ![لقطة الشاشة](images/tightrope-path-challenge.png)
 
