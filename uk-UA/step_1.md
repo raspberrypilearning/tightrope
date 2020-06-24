@@ -1,4 +1,4 @@
-## Вступ:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,31 +7,31 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Додаткова інформація для керівників гуртка
+### Additional information for club leaders
 
-Якщо вам потрібно роздрукувати цей проект, скористайтеся [ Версія для друку ](https://projects.raspberrypi.org/en/projects/tightrope/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
 ## \--- collapse \---
 
-## title: Нотатки керівника гуртка
+## title: Club leader notes
 
-## Вступ:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
-## Онлайн Ресурси
+## Online Resources
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Цей проект містить наступні трінкети:
+**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 * ['Tightrope' Starter Trinket -- jumpto.cc/tightrope-go](http://jumpto.cc/tightrope-go)
 
-Також є трінкет, що містить завершений проект:
+There is also a trinket containing the completed project:
 
 * [‘Tightrope’ Finished -- trinket.io/python/790adaa749](https://trinket.io/python/790adaa749)
 
-## Офлайн Ресурси
+## Offline Resources
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Ви можете отримати доступ до ресурсів проекту, натиснувши посилання "Матеріали проекту" для цього проекту. Це посилання містить розділ "Ресурси проекту", який містить ресурси, необхідні для завершення цього проекту в режимі офлайн. Переконайтеся, що кожна дитина має доступ до копій цих ресурсів. Ця секція містить наступні файли:
+This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * tightrope/main.py
 * tightrope/snippets.py
@@ -41,42 +41,42 @@ You can also find a completed version of this project in the 'Volunteer Resource
 * tightrope-finished/main.py
 * tightrope-finished/snippets.py
 
-(Всі з вищевказаних ресурсів можна завантажувати як проекти і волонтерські файли `.zip`.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Цілі навчання
+## Learning Objectives
 
 * Sense HAT orientation (roll, pitch and yaw);
 * Sense HAT display;
 * RGB colours;
 
-Цей проект охоплює елементи з наступних напрямків навчального плану [ Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Для вирішення проблеми об'єднайте конструкції програмування.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Завдання
+## Challenges
 
 * "Create your own path" - creating a image using a list of pixels;
 * "Moving up!" - moving the character up in response to changing `roll` values.
 * "Changing the difficulty" - testing the finished game and making changes based on player feedback.
 
-\---collapse\---
+\--- /collapse \---
 
-## \---collapse\---
+## \--- collapse \---
 
-## title: Матеріали проекту
+## title: Project materials
 
-## Проектні ресурси
+## Project resources
 
-* [.zip file, що містить всі ресурси проекту](resources/tightrope-project-resources.zip)
+* [.zip file containing all project resources](resources/tightrope-project-resources.zip)
 * [Tightrope starter project](http://jumpto.cc/tightrope-go)
 * [Offline starter Python file](resources/tightrope-main.py)
 * [Offline Python file containing useful code](resources/tightrope-snippets.py)
 
-## Ресурси лідерів клубу
+## Club leader resources
 
-* [.zip файл, що містить всі проектні ресурси](resources/tightrope-volunteer-resources.zip)
+* [.zip file containing all completed project resources](resources/tightrope-volunteer-resources.zip)
 * [Online completed Trinket Tightrope project](https://trinket.io/python/790adaa749)
 * [tightrope-finished/main.py](resources/tightrope-finished-main.py)
 * [tightrope-finished/snippets.py](resources/tightrope-finished-snippets.py)
 
-\---collapse\---
+\--- /collapse \---
