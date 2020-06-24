@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Create your own path
 
@@ -8,4 +8,4 @@ Can you edit your `path` variable to create a path to follow?
 
 ![screenshot](images/tightrope-path-challenge.png)
 
-\--- / challenge \---
+\--- /challenge \---
