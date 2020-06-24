@@ -22,7 +22,7 @@
     
     ![لقطة الشاشة](images/tightrope-path.png)
     
-    **لتقليل الكتابة، يمكنك نسخ قوس قزح من `snippetets.py` في مشروعك.**
+    **لتقليل الكتابة، يمكنك نسخ قوس قزح من `snippets.py` في مشروعك.**
     
     ![لقطة الشاشة](images/tightrope-snippets.png)
 
