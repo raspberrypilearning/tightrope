@@ -10,7 +10,7 @@ Let's put your character back to the start when it falls off the path.
     
     Let's start by getting the colour of the pixel the character has moved to.
     
-    ![schermata](images/tightrope-get-pixel.png)
+    ![screenshot](images/tightrope-get-pixel.png)
 
 + If the colour of the current pixel is black, then send the character back to the start.
     
