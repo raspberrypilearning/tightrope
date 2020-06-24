@@ -1,4 +1,4 @@
-## Giriş:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,15 +7,15 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Kulüp liderleri için ek bilgiler
+### Additional information for club leaders
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürümü](https://projects.raspberrypi.org/en/projects/tightrope/print) kullanın.
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
-## \--- küçült \---
+## \--- collapse \---
 
-## title: Kulüp lideri notları
+## title: Club leader notes
 
-## Giriş:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
@@ -49,11 +49,11 @@ You can also find a completed version of this project in the 'Volunteer Resource
 * Sense HAT display;
 * RGB colours;
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Meydan Okumalar
+## Challenges
 
 * "Create your own path" - creating a image using a list of pixels;
 * "Moving up!" - moving the character up in response to changing `roll` values.
@@ -63,7 +63,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 
 ## \--- collapse \---
 
-## title: Proje materyalleri
+## title: Project materials
 
 ## Project resources
 
@@ -72,7 +72,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 * [Offline starter Python file](resources/tightrope-main.py)
 * [Offline Python file containing useful code](resources/tightrope-snippets.py)
 
-## Kulüp lideri için kaynaklar
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/tightrope-volunteer-resources.zip)
 * [Online completed Trinket Tightrope project](https://trinket.io/python/790adaa749)
