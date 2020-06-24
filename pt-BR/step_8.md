@@ -14,6 +14,6 @@ Let's put your character back to the start when it falls off the path.
 
 + If the colour of the current pixel is black, then send the character back to the start.
     
-    ![captura de tela](images/tightrope-reset.png)
+    ![screenshot](images/tightrope-reset.png)
 
 + Test your code and you should see your character move back to the start if they fall off the path.
