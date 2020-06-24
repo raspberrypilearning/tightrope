@@ -4,7 +4,7 @@ Let's add the character to your game.
 
 + First, create another colour variable for your character. Here's how to create blue:
     
-    ![képernyőkép](images/tightrope-blue.png)
+    ![screenshot](images/tightrope-blue.png)
 
 + Next you need to create variables to store your character's x and y position. To start with, we'll set these both to `0`, which is the top-left of the Sense HAT.
     
