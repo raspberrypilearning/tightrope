@@ -1,4 +1,4 @@
-## Introduksjon:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,15 +7,15 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Tilleggsinformasjon for klubbledere
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
-## \--- kollaps \---
+## \--- collapse \---
 
 ## title: Club leader notes
 
-## Introduksjon:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
@@ -59,9 +59,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * "Moving up!" - moving the character up in response to changing `roll` values.
 * "Changing the difficulty" - testing the finished game and making changes based on player feedback.
 
-\--- / kollaps \---
+\--- /collapse \---
 
-## \--- kollaps \---
+## \--- collapse \---
 
 ## title: Project materials
 
@@ -79,4 +79,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [tightrope-finished/main.py](resources/tightrope-finished-main.py)
 * [tightrope-finished/snippets.py](resources/tightrope-finished-snippets.py)
 
-\--- / kollaps \---
+\--- /collapse \---
