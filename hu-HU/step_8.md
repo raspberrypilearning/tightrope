@@ -4,7 +4,7 @@ Let's put your character back to the start when it falls off the path.
 
 + You may have noticed that nothing happens when the character falls off the path.
     
-    ![képernyőkép](images/tightrope-off-path.png)
+    ![screenshot](images/tightrope-off-path.png)
 
 + To fix this, we're going to send the character back to the start if they're standing on a black pixel.
     
