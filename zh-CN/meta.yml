@@ -11,11 +11,11 @@ description: Tilt your Sense HAT to guide a character along a path.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
 interests: games
 technologies: sense-hat
-site_areas: codeclub, webdev
+site_areas: projects
 hardware: sense-hat
 software: ''
 version: 3
-last_tested: 2017年1月1日
+last_tested: 2017-01-01
 steps:
   - 
     title: 'Introduction'
