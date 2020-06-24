@@ -1,19 +1,19 @@
-## स्टार्ट पर वापस जाना
+## Going back to the start
 
-आइए आपका पात्र जब रास्ते के बाहर गिर जाता है तो उसे वापस स्टार्ट पर ले जाएँ।
+Let's put your character back to the start when it falls off the path.
 
-+ आपने देखा होगा कि जब पात्र रास्ते के बाहर गिर जाता है तो कुछ भी नहीं होता है।
++ You may have noticed that nothing happens when the character falls off the path.
     
-    ![स्क्रीनशॉट](images/tightrope-off-path.png)
+    ![screenshot](images/tightrope-off-path.png)
 
-+ इसे ठीक करने के लिए, यदि कोई पात्र किसी काले पिक्सेल पर खड़ा होता है, तो हम उसे वापस स्टार्ट पर भेजना शुरू करते हैं।
++ To fix this, we're going to send the character back to the start if they're standing on a black pixel.
     
-    आइए हम उस पिक्सेल का रंग प्राप्त करने से शुरू करते हैं जिस पर पात्र चला गया है।
+    Let's start by getting the colour of the pixel the character has moved to.
     
-    ![स्क्रीनशॉट](images/tightrope-get-pixel.png)
+    ![screenshot](images/tightrope-get-pixel.png)
 
-+ यदि वर्तमान पिक्सेल का रंग काला है, तो पात्र को वापस स्टार्ट पर भेजें।
++ If the colour of the current pixel is black, then send the character back to the start.
     
-    ![स्क्रीनशॉट](images/tightrope-reset.png)
+    ![screenshot](images/tightrope-reset.png)
 
-+ अपने कोड का परीक्षण करें और यदि आपका पात्र रास्ते से बाहर गिर जाता है, तो आपको अपना पात्र वापस स्टार्ट पर जाता हुआ दिखाई देना चाहिए।
++ Test your code and you should see your character move back to the start if they fall off the path.
