@@ -1,4 +1,4 @@
-## Giới thiệu:
+## Introduction:
 
 In this project you will create a game in which you have to tilt your Sense HAT to guide a character along a path. If you fall off the path, you have to start again from the beginning!
 
@@ -7,15 +7,15 @@ In this project you will create a game in which you have to tilt your Sense HAT 
 </iframe> <img src="images/tightrope-final.png" />
 </div>
 
-### Thông tin bổ sung cho lãnh đạo của các câu lạc bộ
+### Additional information for club leaders
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [Phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/tightrope/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tightrope/print).
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Ghi chú dành cho lãnh đạo câu lạc bộ
+## title: Club leader notes
 
-## Giới thiệu:
+## Introduction:
 
 In this project, children will learn about the Sense HAT orientation sensor by creating a line-follownig game. The player tilts the Sense HAT to move the character along a path. Deviating from the path sends the player back to the start!
 
@@ -43,17 +43,17 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Mục tiêu học tập
+## Learning Objectives
 
 * Sense HAT orientation (roll, pitch and yaw);
 * Sense HAT display;
 * RGB colours;
 
-Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Kết hợp các cấu trúc lập trình để giải quyết vấn đề.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Thử thách
+## Challenges
 
 * "Create your own path" - creating a image using a list of pixels;
 * "Moving up!" - moving the character up in response to changing `roll` values.
@@ -61,9 +61,9 @@ Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi D
 
 \--- /collapse \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Tài liệu và tài nguyên cho dự án
+## title: Project materials
 
 ## Project resources
 
@@ -72,7 +72,7 @@ Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi D
 * [Offline starter Python file](resources/tightrope-main.py)
 * [Offline Python file containing useful code](resources/tightrope-snippets.py)
 
-## Tài liệu và tài nguyên cho lãnh đạo câu lạc bộ
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/tightrope-volunteer-resources.zip)
 * [Online completed Trinket Tightrope project](https://trinket.io/python/790adaa749)
