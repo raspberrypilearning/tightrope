@@ -4,7 +4,7 @@ Now let's move your character when the Sense HAT is tilted.
 
 + Let's move your character to the right if the Sense HAT's `pitch` is between `270` and `315` degrees.
     
-    ![képernyőkép](images/tightrope-right-values.png)
+    ![screenshot](images/tightrope-right-values.png)
 
 + Add this code to change the character's x position if the pitch is between `270` and `315`:
     
