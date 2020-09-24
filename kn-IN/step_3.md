@@ -6,6 +6,6 @@
 
 **ನಿಮ್ಮ ಹಾದಿಯು ದೃಶ್ಯಪರದೆಯ ಎಡ-ಮೇಲ್ತುದಿಯಿಂದ ಶುರು ಆಗುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ.**
 
-![ತೆರೆಸೆರೆ](images/tightrope-path-challenge.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/tightrope-path-challenge.png)
 
 \--- /challenge \---
