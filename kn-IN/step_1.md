@@ -9,7 +9,7 @@
 
 ### ಸಂಘದ ಮುಖಂಡರಿಗೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಪ್ರಾಜೆಕ್ಟನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [Printer friendly Version](https://projects.raspberrypi.org/en/projects/tightrope/print)ಯನ್ನು ಬಳಸಿ.
+ನೀವು ಈ ಪ್ರಾಜೆಕ್ಟನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿ](https://projects.raspberrypi.org/en/projects/tightrope/print)ಯನ್ನು ಬಳಸಿ.
 
 ## \--- collapse \---
 
