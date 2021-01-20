@@ -9,10 +9,10 @@ y = [255, 255, 0]
 x = [0, 0, 0]
 b = [0, 0, 255]
 
-charx = 0
-chary = 0
+perx = 0
+pery = 0
 
-path = [
+ruta = [
   y,y,y,x,x,x,x,x,
   x,x,y,x,x,x,x,x,
   x,x,y,x,x,x,x,x,
@@ -24,30 +24,30 @@ path = [
 ]
 
 while True:
-  sense.set_pixels(path)
-  sense.set_pixel(charx, chary, b)
+  sense.set_pixels(ruta)
+  sense.set_pixel(perx, pery, b)
 
-  pitch = sense.get_orientation()['pitch']
-  roll = sense.get_orientation()['roll']
+  cabeceo = sense.get_orientation()['pitch']
+  alabeo = sense.get_orientation()['roll']
 
-  print('Pitch:', pitch)
-  print('Roll:', roll)
+  print('Pitch:', alabeo)
+  print('Roll:', cabeceo)
 
-  if 270 < pitch < 315 and charx < 7:
-    charx += 1
+  if 270 < cabeceo < 315 and perx < 7:
+    perx += 1
 
-  if 45 < pitch < 90 and charx > 0:
-    charx -= 1
+  if 45 < cabeceo < 90 and perx > 0:
+    perx -= 1
 
-  if 45 < roll < 90 and chary < 7:
-    chary += 1
+  if 45 < alabeo < 90 and pery < 7:
+    pery += 1
 
-  if 270 < roll < 315 and chary > 0:
-    chary -= 1
+  if 270 < alabeo < 315 and pery > 0:
+    pery -= 1
 
-  current = sense.get_pixel(charx, chary)
-  if current == x:
-    charx = 0
-    chary = 0
+  pixel_actual= sense.get_pixel(perx, pery)
+  if pixel_actual == x:
+    perx = 0
+    pery = 0
 
   sleep(0.4)
