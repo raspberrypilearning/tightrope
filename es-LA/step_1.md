@@ -9,11 +9,12 @@ En este proyecto crearás un juego donde debes inclinar tu Sense HAT para guiar 
 
 ### Información adicional para los líderes del club
 
-Si necesitas imprimir este proyecto, usa la [Versión para imprimir](https://projects.raspberrypi.org/es-LA/projects/tightrope/print).
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-LA/projects/tightrope/print).
 
 --- collapse ---
-
-## Notas para el líder del club
+---
+title: Notas para el líder del club
+---
 
 ## Introducción:
 
@@ -23,11 +24,11 @@ En este proyecto, los niños aprenderán acerca de la orientación del sensor de
 
 **Este proyecto usa Python 3.** Recomendamos usar [Trinket](https://trinket.io/) para escribir Python online. Este proyecto contiene los siguientes enlaces de Trinket:
 
-* ['Tightrope' Starter Trinket -- jumpto.cc/tightrope-go](http://jumpto.cc/tightrope-go)
+* ['Cuerda floja' Starter Trinket -- jumpto.cc/tightrope-go](http://jumpto.cc/tightrope-go)
 
 También hay un enlace de Trinket que contiene el proyecto completo:
 
-* [‘Tightrope’ Finished -- trinket.io/python/f87fe7288f](https://trinket.io/python/f87fe7288f)
+* [‘Cuerda floja’ Finished -- trinket.io/python/f87fe7288f](https://trinket.io/python/f87fe7288f)
 
 ## Recursos sin conexión
 
