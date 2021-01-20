@@ -6,6 +6,6 @@
 
 **Asegúrese de que su ruta comience en la esquina superior izquierda de la pantalla.**
 
-![screenshot](images/tightrope-path-challenge.png)
+![captura de pantalla](images/tightrope-path-challenge.png)
 
 \--- /challenge \---
