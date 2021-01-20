@@ -63,8 +63,9 @@ Este proyecto incluye elementos con los siguientes aspectos del [Currículo de C
 --- /collapse ---
 
 --- collapse ---
-
-## Materiales del proyecto
+---
+title: Materiales del proyecto
+---
 
 ## Recursos del proyecto
 
