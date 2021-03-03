@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Changing the difficulty
+## Uitdaging: de moeilijkheidsgraad veranderen
 
-Ask some friends to test your game. Did they find it too easy or too hard? If so, you could make some changes:
+Vraag een paar vrienden om je spel te testen. Vonden ze het te gemakkelijk of te moeilijk? Zo ja, dan kun je enkele wijzigingen aanbrengen:
 
-+ Change the path the character has to follow;
-+ Change the `pitch` and `roll` values that move your character;
-+ Add a short or longer `sleep` at the end of your loop.
++ Verander het pad dat het personage moet volgen;
++ Wijzig de `helling` en `kanteling` waarden die je personage verplaatsen;
++ Voeg een korte of langere `sleep` toe aan het einde van je lus.
 
-![screenshot](images/tightrope-difficulty.png)
+![schermafbeelding](images/tightrope-difficulty.png)
 
 \--- /challenge \---
