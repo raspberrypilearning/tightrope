@@ -2,7 +2,7 @@
 
 Primero, dibujemos el camino que tu personaje debe seguir.
 
-+ Abre el Trinket inicial de "Cuerda Floja": <a href="http://jumpto.cc/tightrope-go" target="_blank"> jumpto.cc/tightrope-go </a>.
++ Abre el Trinket inicial de "Cuerda Floja": <a href="https://trinket.io/python/661d38c6d9" target="_blank">trinket.io/python/661d38c6d9</a>.
     
     **El código para configurar el Sense HAT ha sido incluido para ti.**
 
