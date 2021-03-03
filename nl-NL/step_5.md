@@ -1,39 +1,39 @@
-## Roll, pitch and yaw
+## Kanteling, helling en verdraaiing
 
-You'll be tilting the Sense HAT to move your character. Let's start by finding out the **orientation** (the position) of your Sense HAT.
+Je gaat de Sense HAT kantelen om je personage te verplaatsen. Laten we beginnen met de **oriëntatie** (de positie) van je Sense HAT.
 
-+ The Sense HAT can detect its **roll**, **pitch** and **yaw**.
++ De Sense HAT kan zijn **kanteling (roll)**, **helling (pitch)** en **verdraaiing (yaw)** detecteren.
     
-    ![screenshot](images/tightrope-rpy.png)
+    ![schermafbeelding](images/tightrope-rpy.png)
 
-+ Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
++ Probeer de Sense HAT te slepen om de waarden van de kanteling, de helling en de verdraaiing te veranderen om te zien hoe het beweegt.
     
-    ![screenshot](images/tightrope-rpy-test.png)
+    ![schermafbeelding](images/tightrope-rpy-test.png)
     
-    **Press the reset button to put the Sense HAT back to the starting position when you've finished testing.**
+    **Druk op de resetknop om de Sense HAT terug te zetten naar de uitgangspositie als je klaar bent met testen.**
 
-+ We only need the pitch and the roll for this project, so add 2 lines of code to get these values from the Sense HAT.
++ We hebben alleen de helling en de kanteling nodig voor dit project, dus voeg 2 regels code toe om deze waarden uit de Sense HAT te halen.
     
-    ![screenshot](images/tightrope-roll-pitch.png)
+    ![schermafbeelding](images/tightrope-roll-pitch.png)
 
-+ Print the pitch and roll to test them out.
++ Druk de helling en kanteling af om ze uit te testen.
     
-    ![screenshot](images/tightrope-roll-pitch-print.png)
+    ![schermafbeelding](images/tightrope-roll-pitch-print.png)
 
-+ Run your code to test it, and change the pitch of the Sense HAT to tilt it to the right. You'll notice that the printed `pitch` value doesn't change!
++ Voer je code uit om het te testen en verander de helling van de Sense HAT door hem naar rechts te kantelen. Je ziet dat de afgedrukte `helling` waarde niet verandert!
     
-    ![screenshot](images/tightrope-pitch-test.png)
+    ![schermafbeelding](images/tightrope-pitch-test.png)
 
-+ The problem is that you are only getting and printing the `pitch` and `roll` **once**.
++ Het probleem is dat je de `helling` en `kanteling` maar **één keer** krijgt en afdrukt.
     
-    To do this repeatedly, you'll first need to indent all of your code for setting the pixels, as well as getting and printing the `pitch` and `roll` values.
+    Om dit herhaaldelijk te doen, moet je eerst al je code om de pixels in te stellen inspringen, evenals het krijgen en printen van de `helling` en `kanteling` waarden.
     
-    ![screenshot](images/tightrope-indent.png)
+    ![schermafbeelding](images/tightrope-indent.png)
 
-+ You can then add `while True:` above the indented code to run it forever.
++ Je kunt vervolgens `while True:` boven de ingesprongen code toevoegen om het voor altijd uit te voeren.
     
-    ![screenshot](images/tightrope-forever.png)
+    ![schermafbeelding](images/tightrope-forever.png)
 
-+ Test your code again, and this time you should see the printed `pitch` value change.
++ Test je code opnieuw, en deze keer zou je de afgedrukte waarde van `helling` moeten zien veranderen.
     
-    ![screenshot](images/tightrope-pitch-test-fix.png)
+    ![schermafbeelding](images/tightrope-pitch-test-fix.png)
