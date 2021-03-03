@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Create your own path
+## Uitdaging: maak je eigen pad
 
-Can you edit your `path` variable to create a path to follow?
+Kun je je `pad` variabele bewerken om een pad te maken dat je kunt volgen?
 
-**Make sure that your path starts at the top-left of the display.**
+**Zorg ervoor dat je pad linksboven in het scherm begint.**
 
-![screenshot](images/tightrope-path-challenge.png)
+![schermafbeelding](images/tightrope-path-challenge.png)
 
 \--- /challenge \---
