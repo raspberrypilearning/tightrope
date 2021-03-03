@@ -1,19 +1,19 @@
-## Going back to the start
+## Terug naar het begin
 
-Let's put your character back to the start when it falls off the path.
+Laten we je personage terug naar het begin zetten als het van het pad valt.
 
-+ You may have noticed that nothing happens when the character falls off the path.
++ Het is je misschien opgevallen dat er niets gebeurt als het personage van het pad valt.
     
-    ![screenshot](images/tightrope-off-path.png)
+    ![schermafbeelding](images/tightrope-off-path.png)
 
-+ To fix this, we're going to send the character back to the start if they're standing on a black pixel.
++ Om dit op te lossen, sturen we het personage terug naar het begin als ze op een zwarte pixel staan.
     
-    Let's start by getting the colour of the pixel the character has moved to.
+    Laten we beginnen met het bepalen van de kleur van de pixel waarnaar het personage is verplaatst.
     
-    ![screenshot](images/tightrope-get-pixel.png)
+    ![schermafbeelding](images/tightrope-get-pixel.png)
 
-+ If the colour of the current pixel is black, then send the character back to the start.
++ Als de kleur van de huidige pixel zwart is, stuur het personage dan terug naar het begin.
     
-    ![screenshot](images/tightrope-reset.png)
+    ![schermafbeelding](images/tightrope-reset.png)
 
-+ Test your code and you should see your character move back to the start if they fall off the path.
++ Test je code en je zou moeten zien dat je personage teruggaat naar het begin als ze van het pad vallen.
