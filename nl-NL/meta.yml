@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Tightrope
-description: Tilt your Sense HAT to guide a character along a path.
+title: Koorddansen
+description: Kantel je Sense HAT om een personage langs een pad te leiden.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
 interests: games
 technologies: sense-hat
@@ -18,20 +18,20 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction'
+    title: 'Inleiding'
   - 
-    title: Draw a path
+    title: Teken een pad
   - 
-    title: 'Challenge: Create your own path'
+    title: 'Uitdaging: maak je eigen pad'
   - 
-    title: Draw your player
+    title: Teken je speler
   - 
-    title: 'Roll, pitch and yaw'
+    title: 'Kanteling, helling en verdraaiing'
   - 
-    title: Moving the character
+    title: Het personage verplaatsen
   - 
-    title: 'Challenge: Moving up!'
+    title: 'Uitdaging: omhoog gaan!'
   - 
-    title: Going back to the start
+    title: Terug naar het begin
   - 
-    title: 'Challenge: Changing the difficulty'
+    title: 'Uitdaging: de moeilijkheidsgraad veranderen'
