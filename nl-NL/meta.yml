@@ -1,0 +1,28 @@
+---
+hero_image: images/tightrope.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Koorddansen
+description: Kantel je Sense HAT om een personage langs een pad te leiden.
+original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
+interests: games
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'Inleiding'
+  - title: Teken een pad
+  - title: 'Uitdaging: maak je eigen pad'
+  - title: Teken je speler
+  - title: 'Kanteling, helling en verdraaiing'
+  - title: Het personage verplaatsen
+  - title: 'Uitdaging: omhoog gaan!'
+  - title: Terug naar het begin
+  - title: 'Uitdaging: de moeilijkheidsgraad veranderen'
