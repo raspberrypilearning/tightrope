@@ -1,35 +1,35 @@
-## Draw a path
+## Teken een pad
 
-First let's draw the path that your character must follow.
+Laten we eerst het pad tekenen dat het personage moet volgen.
 
-+ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
++ Open de Koorddansen start Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
     
-    **The code to set up the Sense HAT has been included for you.**
+    **De code voor het instellen van de Sense HAT is voor je meegeleverd.**
 
-+ Let's start by creating variables to store the colours you want to use. Remember that to set the colour of an individual LED, you need to say how much red, green and blue it should have.
++ Laten we beginnen met het maken van variabelen om de kleuren die je wilt gebruiken op te slaan. Vergeet niet dat om de kleur van een individuele LED in te stellen, je moet zeggen hoeveel rood, groen en blauw het zou moeten hebben.
     
-    To create yellow, you'll need maximum red and green, and no blue:
+    Om geel te maken, heb je maximaal rood en groen nodig, en geen blauw:
     
-    ![screenshot](images/tightrope-yellow.png)
+    ![schermafbeelding](images/tightrope-yellow.png)
     
-    (If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
+    (Als je wilt, kun je naar [jumpto.cc/color](http://jumpto.cc/colours) gaan en elke gewenste kleur kiezen!
 
-+ You'll also need black pixels (or any colour you like) around the path.
++ Je hebt ook zwarte pixels (of elke gewenste kleur) rond het pad nodig.
     
-    ![screenshot](images/tightrope-black.png)
+    ![schermafbeelding](images/tightrope-black.png)
 
-+ To draw your path, you first need to create a list containing the colour of each pixel.
++ Om je pad te tekenen moet je eerst een lijst maken met de kleur van elke pixel.
     
-    ![screenshot](images/tightrope-path.png)
+    ![schermafbeelding](images/tightrope-path.png)
     
-    **To save typing, you can copy the code from `snippets.py` in your project.**
+    **Om typen te besparen, kun je de code van `snippets.py` in je project kopiëren.**
     
-    ![screenshot](images/tightrope-snippets.png)
+    ![schermafbeelding](images/tightrope-snippets.png)
 
-+ Next, you need to call `set_pixels` to display your path image on the Sense HAT.
++ Vervolgens moet je `set_pixels` aanroepen om de afbeelding van je pad op de Sense HAT weer te geven.
     
-    ![screenshot](images/tightrope-set-pixels.png)
+    ![schermafbeelding](images/tightrope-set-pixels.png)
 
-+ Click 'Run' to test your code. You should see a yellow pixel in the places that you've used your `y` variable, and no colour in the places that you've used `x`.
++ Klik op 'Run' om je code te testen. Je zou een gele pixel moeten zien op de plaatsen waar je je `y` variabele hebt gebruikt, en geen kleur op de plaatsen waar je `x` hebt gebruikt.
     
-    ![screenshot](images/tightrope-path-test.png)
+    ![schermafbeelding](images/tightrope-path-test.png)
