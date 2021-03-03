@@ -1,51 +1,51 @@
-## Moving the character
+## Het personage verplaatsen
 
-Now let's move your character when the Sense HAT is tilted.
+Laten we nu je personage verplaatsen wanneer de Sense HAT wordt gekanteld.
 
-+ Let's move your character to the right if the Sense HAT's `pitch` is between `270` and `315` degrees.
++ Laten we je personage naar rechts verplaatsen als de `helling` van de Sense HAT tussen `270` en `315` graden is.
     
-    ![screenshot](images/tightrope-right-values.png)
+    ![schermafbeelding](images/tightrope-right-values.png)
 
-+ Add this code to change the character's x position if the pitch is between `270` and `315`:
++ Voeg deze code toe om de x-positie van het personage te wijzigen als de helling tussen `270` en `315` is:
     
-    ![screenshot](images/tightrope-charx-plus.png)
+    ![schermafbeelding](images/tightrope-charx-plus.png)
     
-    **Make sure that this code is indented, so that the character moves repeatedly if the Sense HAT is tilted.**
+    **Zorg ervoor dat deze code is ingesprongen, zodat het personage zich herhaaldelijk beweegt als de Sense HAT wordt gekanteld.**
 
-+ Tilt your Sense HAT so that the `pitch` is between `270` and `315` degrees. You should see that your character moves to the right, but keeps going off the display!
++ Kantel je Sense HAT zodat de `helling` ligt tussen `270` en `315` graden. Je zou moeten zien dat je personage naar rechts beweegt, maar steeds van het scherm verdwijnt!
     
-    ![screenshot](images/tightrope-charx-test-bug.png)
+    ![schermafbeelding](images/tightrope-charx-test-bug.png)
     
-    You will also see an error, because the character's x position goes above 7, which is not a valid position on the display.
+    Je zult ook een fout zien, omdat de x-positie van het karakter boven de 7 komt, wat geen geldige positie op het scherm is.
     
-    ![screenshot](images/tightrope-charx-test-error.png)
+    ![schermafbeelding](images/tightrope-charx-test-error.png)
 
-+ To fix this, you only want to move your character to the right if its current position is less than 7.
++ Om dit op te lossen, wil je je personage alleen naar rechts verplaatsen als de huidige positie kleiner is dan 7.
     
-    ![screenshot](images/tightrope-charx-test-fix.png)
+    ![schermafbeelding](images/tightrope-charx-test-fix.png)
 
-+ Test your improved code, and you should now see that your character moves **until it gets to the right side of the display**.
++ Test je verbeterde code, en je zou nu moeten zien dat je personage beweegt **totdat het aan de rechterkant van het scherm komt**.
     
-    ![screenshot](images/tightrope-charx-test2.png)
+    ![schermafbeelding](images/tightrope-charx-test2.png)
 
-+ We also want to move your character to the left when the `pitch` is between `45` and `90` degrees.
++ We willen je personage ook naar links verplaatsen als de `helling` tussen `45` en `90` graden is.
     
-    ![screenshot](images/tightrope-left-values.png)
+    ![schermafbeelding](images/tightrope-left-values.png)
 
-+ Add this code to move your character to the left if the `pitch` is between `45` and `90`, but **only if the character isn't already at the far left of the display**.
++ Voeg deze code toe om je personage naar links te verplaatsen als de `helling` tussen `45` en `90` is, maar **alleen als het personage nog niet aan de linkerkant van het scherm** is.
     
-    ![screenshot](images/tightrope-charx-minus.png)
+    ![schermafbeelding](images/tightrope-charx-minus.png)
 
-+ Test your code to make sure that you can tilt your character back to the left.
++ Test je code om er zeker van te zijn dat je je personage naar links kunt kantelen.
 
-+ Next, let's add code to change your character's **y-position**, moving it down when the **`roll`** value is between `45` and `90`.
++ Laten we vervolgens code toevoegen om de **y-positie** van je personage te veranderen: naar beneden bewegen als de waarde van **`kanteling`** tussen `45` en `90` is.
     
-    ![screenshot](images/tightrope-chary-plus.png)
+    ![schermafbeelding](images/tightrope-chary-plus.png)
 
-+ test this code to see if you can tilt the Sense HAT to move your character down.
++ Test deze code om te zien of je de Sense HAT kunt kantelen om je personage omlaag te bewegen.
     
-    ![screenshot](images/tightrope-chary-plus-test.png)
+    ![schermafbeelding](images/tightrope-chary-plus-test.png)
 
-+ If you want to slow your game down, you can add short `sleep` at the end of your `while True:` loop.
++ Als je je spel wilt vertragen, kan je korte `sleep` toevoegen aan het einde van je `while True:` lus.
     
-    ![screenshot](images/tightrope-sleep.png)
+    ![schermafbeelding](images/tightrope-sleep.png)
