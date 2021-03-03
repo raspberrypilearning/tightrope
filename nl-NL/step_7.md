@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Moving up!
+## Uitdaging: omhoog gaan!
 
-Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
+Kun je code toevoegen om je personage omhoog te bewegen (door de variabele `persy` met `-1`te veranderen) wanneer de `kanteling` tussen `270` en `315` is?
 
-The code you'll need to add will be **very** similar to the code for moving your character to the left.
+De code die je moet toevoegen zal **heel** vergelijkbaar zijn met de code om het personage naar links te verplaatsen.
 
 \--- /challenge \---
