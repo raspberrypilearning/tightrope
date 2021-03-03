@@ -1,19 +1,19 @@
-## Draw your player
+## Teken je speler
 
-Let's add the character to your game.
+Laten we het personage aan je spel toevoegen.
 
-+ First, create another colour variable for your character. Here's how to create blue:
++ Maak eerst een andere kleurvariabele voor je personage. Dit is hoe je blauw kunt maken:
     
-    ![screenshot](images/tightrope-blue.png)
+    ![schermafbeelding](images/tightrope-blue.png)
 
-+ Next you need to create variables to store your character's x and y position. To start with, we'll set these both to `0`, which is the top-left of the Sense HAT.
++ Nu moet je variabelen maken om de x- en y-positie van je personage op te slaan. Om te beginnen stellen we deze beide in op `0`, dat is linksboven in de Sense HAT.
     
-    ![screenshot](images/tightrope-xy.png)
+    ![schermafbeelding](images/tightrope-xy.png)
 
-+ To display your character, use `set_pixel`. You need to tell `set_pixel` the x and y position of the pixel to set, as well as the colour.
++ Om je personage weer te geven, gebruik `set_pixel`. Je moet `set_pixel` de x en y positie van de pixel vertellen, evenals de kleur.
     
-    ![screenshot](images/tightrope-set-pixel.png)
+    ![schermafbeelding](images/tightrope-set-pixel.png)
 
-+ Test your code, and you should now see your character in the top-left of the screen.
++ Test je code, en je zou nu je personage linksboven in het scherm moeten zien.
     
-    ![screenshot](images/tightrope-final.png)
+    ![schermafbeelding](images/tightrope-final.png)
