@@ -24,7 +24,7 @@ En este proyecto, los niños aprenderán acerca de la orientación del sensor de
 
 **Este proyecto usa Python 3.** Recomendamos usar [Trinket](https://trinket.io/) para escribir Python online. Este proyecto contiene los siguientes enlaces de Trinket:
 
-* ['Cuerda floja' Starter Trinket -- jumpto.cc/tightrope-go](http://jumpto.cc/tightrope-go)
+* ['Cuerda floja' Starter Trinket -- trinket.io/python/661d38c6d9](https://trinket.io/python/661d38c6d9)
 
 También hay un enlace de Trinket que contiene el proyecto completo:
 
@@ -70,7 +70,7 @@ title: Materiales del proyecto
 ## Recursos del proyecto
 
 * [Archivo.zip contiene todos los recursos del proyecto](resources/tightrope-project-resources.zip)
-* [Proyecto inicial 'Cuerda floja'](http://jumpto.cc/tightrope-go)
+* [Proyecto inicial 'Cuerda floja'](https://trinket.io/python/661d38c6d9)
 * [Archivo de Python inicial sin conexión](resources/tightrope-main.py)
 * [Archivo de Python sin conexión que contiene código útil](resources/tightrope-snippets.py)
 
