@@ -1,51 +1,51 @@
-## Moving the character
+## पात्र को चलाना
 
-Now let's move your character when the Sense HAT is tilted.
+आइए अब हम आपके पात्र को तब चलाएँ जब Sense HAT झुका हुआ हो।
 
-+ Let's move your character to the right if the Sense HAT's `pitch` is between `270` and `315` degrees.
++ आइए हम आपके पात्र को तब दाईं ओर चलाएँ जब Sense HAT की `pitch` `270` और `315` डिग्री के बीच हो।
     
-    ![screenshot](images/tightrope-right-values.png)
+    ![स्क्रीनशॉट](images/tightrope-right-values.png)
 
-+ Add this code to change the character's x position if the pitch is between `270` and `315`:
++ यदि झुकाव `270` और `315` के बीच है, तो पात्र x का स्थान बदलने के लिए इस कोड को जोड़ें:
     
-    ![screenshot](images/tightrope-charx-plus.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-plus.png)
     
-    **Make sure that this code is indented, so that the character moves repeatedly if the Sense HAT is tilted.**
+    **सुनिश्चित करें कि इस कोड को इंडेंट किया गया है, ताकि यदि Sense HAT झुका हुआ है तो पात्र बार-बार चलता है।**
 
-+ Tilt your Sense HAT so that the `pitch` is between `270` and `315` degrees. You should see that your character moves to the right, but keeps going off the display!
++ अपने Sense HAT को इस तरह झुकाएँ कि `pitch` `270` और `315` डिग्री के बीच हो। आपको यह दिखाई देना चाहिए कि आपका पात्र दाईं ओर चलता है, लेकिन वह डिस्प्ले के बाहर जाता रहता है!
     
-    ![screenshot](images/tightrope-charx-test-bug.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-test-bug.png)
     
-    You will also see an error, because the character's x position goes above 7, which is not a valid position on the display.
+    आपको एक त्रुटि भी दिखाई देगी, क्योंकि पात्र की x स्थिति 7 से ऊपर चली जाती है, जो डिस्पले पर मान्य स्थिति नहीं है।
     
-    ![screenshot](images/tightrope-charx-test-error.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-test-error.png)
 
-+ To fix this, you only want to move your character to the right if its current position is less than 7.
++ इसे ठीक करने के लिए, आप अपने पात्र को दाईं ओर केवल तभी ले जाना चाहेंगे जब इसकी वर्तमान स्थिति 7 से कम हो।
     
-    ![screenshot](images/tightrope-charx-test-fix.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-test-fix.png)
 
-+ Test your improved code, and you should now see that your character moves **until it gets to the right side of the display**.
++ अपने सुधारे गए कोड का परीक्षण करें, और अब आपको यह दिखाई देना चाहिए कि आपका पात्र **तब तक चलता है, जब तक वह डिस्प्ले के दाईं ओर नहीं चला जाता है**।
     
-    ![screenshot](images/tightrope-charx-test2.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-test2.png)
 
-+ We also want to move your character to the left when the `pitch` is between `45` and `90` degrees.
++ हम आपके पात्र को तब बाईं ओर भी चलाना चाहते हैं जब `pitch` `45` और `90` डिग्री के बीच हो।
     
-    ![screenshot](images/tightrope-left-values.png)
+    ![स्क्रीनशॉट](images/tightrope-left-values.png)
 
-+ Add this code to move your character to the left if the `pitch` is between `45` and `90`, but **only if the character isn't already at the far left of the display**.
++ अपने पात्र को बाईं ओर चलाने के लिए इस कोड को जोड़ें अगर `pitch` `45` और `90` के बीच है, लेकिन **केवल तभी जब पात्र डिस्प्ले के दूर बाईं ओर नहीं है**।
     
-    ![screenshot](images/tightrope-charx-minus.png)
+    ![स्क्रीनशॉट](images/tightrope-charx-minus.png)
 
-+ Test your code to make sure that you can tilt your character back to the left.
++ यह सुनिश्चित करने के लिए अपने कोड का परीक्षण करें कि आप अपने पात्र को वापस बाईं ओर झुका सकते हैं।
 
-+ Next, let's add code to change your character's **y-position**, moving it down when the **`roll`** value is between `45` and `90`.
++ इसके बाद, आइए आपके पात्र की **y-स्थिति** को बदलने के लिए हम कोड जोड़ते हैं, इसे तब नीचे ले जाकर जब **`roll`** का मान `45` और `90` के बीच हो।
     
-    ![screenshot](images/tightrope-chary-plus.png)
+    ![स्क्रीनशॉट](images/tightrope-chary-plus.png)
 
-+ test this code to see if you can tilt the Sense HAT to move your character down.
++ यह देखने के लिए इस कोड का परीक्षण करें कि क्या आप अपने पात्र को नीचे ले जाने के लिए Sense HAT को झुका सकते हैं।
     
-    ![screenshot](images/tightrope-chary-plus-test.png)
+    ![स्क्रीनशॉट](images/tightrope-chary-plus-test.png)
 
-+ If you want to slow your game down, you can add short `sleep` at the end of your `while True:` loop.
++ यदि आप अपने गेम को धीमा करना चाहते हैं, तो आप अपने `while True:` लूप के अंत में छोटा `sleep` जोड़ सकते हैं।
     
-    ![screenshot](images/tightrope-sleep.png)
+    ![स्क्रीनशॉट](images/tightrope-sleep.png)
