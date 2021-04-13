@@ -1,0 +1,28 @@
+---
+hero_image: images/tightrope.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Tightrope (कसी रस्सी)
+description: किसी रास्ते पर पात्र का मार्गदर्शन करने के लिए अपने Sense HAT को झुकाएँ।
+original_url: https://codeclubprojects.org/en-GB/sense-hat/tightrope
+interests: games
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'परिचय'
+  - title: एक रास्ता बनाएँ
+  - title: 'चुनौती: अपना खुद का रास्ता बनाएँ'
+  - title: अपना खिलाड़ी बनाएँ
+  - title: 'आगे-पीछे घुमाना, ऊपर-नीचे घुमाना और दाएँ-बाएँ घुमाना'
+  - title: पात्र को चलाना
+  - title: 'चुनौती: ऊपर ले जाना!'
+  - title: शुरू करने के लिए वापस जा रहे हैं
+  - title: 'चुनौती: कठिनाई को बदलना'
