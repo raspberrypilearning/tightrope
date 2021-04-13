@@ -7,7 +7,7 @@ sense = SenseHat()
 
 y = [255, 255, 0]
 x = [0, 0, 0]
-b = [0, 0, 255]
+b = [0,0,255]
 
 charx = 0
 chary = 0
