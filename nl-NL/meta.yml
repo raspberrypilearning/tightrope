@@ -17,12 +17,16 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Inleiding'
-  - title: Teken een pad
-  - title: 'Uitdaging: maak je eigen pad'
-  - title: Teken je speler
-  - title: 'Kanteling, helling en verdraaiing'
-  - title: Het personage verplaatsen
-  - title: 'Uitdaging: omhoog gaan!'
-  - title: Terug naar het begin
-  - title: 'Uitdaging: de moeilijkheidsgraad veranderen'
+- title: Inleiding
+- title: Teken een pad
+- title: 'Uitdaging: maak je eigen pad'
+- title: Teken je speler
+  completion:
+  - engaged
+- title: Kanteling, helling en verdraaiing
+- title: Het personage verplaatsen
+- title: 'Uitdaging: omhoog gaan!'
+- title: Terug naar het begin
+  completion:
+  - internal
+- title: 'Uitdaging: de moeilijkheidsgraad veranderen'

@@ -1,5 +1,6 @@
+---
 hero_image: images/tightrope.png
-theme:  yellow
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
@@ -15,13 +16,17 @@ hardware: sense-hat
 software: ''
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: 'Introduction'
+steps:
+- title: Introduction
 - title: Draw a path
 - title: 'Challenge: Create your own path'
 - title: Draw your player
-- title: 'Roll, pitch and yaw'
+  completion:
+  - engaged
+- title: Roll, pitch and yaw
 - title: Moving the character
 - title: 'Challenge: Moving up!'
 - title: Going back to the start
+  completion:
+  - internal
 - title: 'Challenge: Changing the difficulty'
