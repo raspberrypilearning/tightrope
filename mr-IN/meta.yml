@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक मार्ग आखा
 - title: 'आव्हान: आपला स्वतःचा मार्ग तयार करा'
 - title: तुमचा पात्र रेखाटा
+  completion:
+  - engaged
 - title: रोल, पिच आणि यॉ
 - title: पात्राला हलविणे
 - title: 'आव्हान: वरती जा!'
 - title: परत सुरवातीला जाणे
-  completion: internal
+  completion:
+  - internal
 - title: 'आव्हान: अडचणीची पातळी बदलणे'

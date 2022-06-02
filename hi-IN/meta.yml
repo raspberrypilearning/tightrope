@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक रास्ता बनाएँ
 - title: 'चुनौती: अपना खुद का रास्ता बनाएँ'
 - title: अपना खिलाड़ी बनाएँ
+  completion:
+  - engaged
 - title: रोल (roll), पिच (pitch) और जंभाई (yaw)
 - title: पात्र को चलाना
 - title: 'चुनौती: ऊपर ले जाना!'
 - title: शुरू करने के लिए वापस जा रहे हैं
-  completion: internal
+  completion:
+  - internal
 - title: 'चुनौती: कठिनाई को बदलना'

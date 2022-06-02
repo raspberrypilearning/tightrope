@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Draw a path
 - title: 'Challenge: Create your own path'
 - title: Draw your player
+  completion:
+  - engaged
 - title: Roll, pitch and yaw
 - title: Moving the character
 - title: 'Challenge: Moving up!'
 - title: Going back to the start
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: Changing the difficulty'

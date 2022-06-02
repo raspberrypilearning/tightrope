@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Dibuja una ruta
 - title: 'Desafío: dibuja tu propia ruta'
 - title: Dibuja a tu jugador
+  completion:
+  - engaged
 - title: Alabeo, cabeceo y guiñada
 - title: Moviendo al personaje
 - title: 'Desafío: ¡avanza!'
 - title: Volviendo al inicio
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafío: ajusta la dificultad'
